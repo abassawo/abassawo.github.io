@@ -1,7 +1,12 @@
 body {
   background-color:white;
+    padding-top: 50px;
+  padding-bottom: 20px;
 
 }
+
+
+
 
 #MainImage img {
   width: 200px;
@@ -9,7 +14,7 @@ body {
   padding: 0;
   display: block;
   border: 0;
-  margin-top: 0px;
+  margin-top: 5%;
   margin-left: auto;
   margin-right: auto
 }
@@ -48,6 +53,21 @@ hr {
   
 }
 
+.nav-pills { 
+  display: block!important; 
+  width: 25%
+}
 
-
-
+@media (min-width: 768px) {
+  .navbar-nav {
+    width: 100%;
+    text-align: center;
+  }
+  .navbar-nav > li {
+    float: none;
+    display: inline-block;
+  }
+  .navbar-nav > li.navbar-right {
+    float: right !important;
+  }
+}
