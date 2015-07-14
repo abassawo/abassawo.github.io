@@ -1,7 +1,6 @@
 body {
   background-color:white;
-    padding-top: 50px;
-  padding-bottom: 20px;
+   
 
 }
 
@@ -9,8 +8,8 @@ body {
 
 }
 
-.navbar-default{
-  background-color: #CCE048;
+.navbar{
+background-color: white;
 }
 
 
@@ -20,7 +19,6 @@ body {
   margin:0 1% /* or auto */;
 }
 #description p {
-  padding:0 10px
     width:48%; 
    margin:0 1% ;
 }
@@ -92,11 +90,12 @@ hr {
 
 .links-container {
     text-align: center;
+    display: block;
+    padding-right: 20px;
 
 }
 
 #links-container li{
-   text-color: #CCE048;
    border: 10px;
 }
 
