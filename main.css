@@ -5,6 +5,14 @@ body {
 
 }
 
+.jumbotron{
+
+}
+
+.navbar-default{
+  background-color: #CCE048;
+}
+
 
 .myHalfCol .col-lg-6{
 
@@ -80,4 +88,21 @@ hr {
 .nav-pills { 
   display: block!important; 
   width: 25%
+}
+
+.links-container {
+    text-align: center;
+
+}
+
+#links-container li{
+   text-color: #CCE048;
+   border: 10px;
+}
+
+#links-container a {
+
+}
+ul {
+    display: inline-block;
 }
