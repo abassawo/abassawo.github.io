@@ -1,0 +1,53 @@
+body {
+  background-color:white;
+
+}
+
+#MainImage img {
+  width: 200px;
+  position: top;
+  padding: 0;
+  display: block;
+  border: 0;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto
+}
+
+logo reg 
+
+
+hr {
+  padding: 0;
+}
+
+#social-icons {
+ width: 25%;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.nav-pills { 
+  display: block!important; 
+  width: 25%
+}
+
+#bs-example-navbar-collapse-1 {
+  padding: 0;
+  border: 0;
+}
+
+.actionBar a {
+  padding: 0;
+  border: 0;
+  width: 8em;
+  min-height: 5em;
+  display: block!important; 
+  text-align: center;
+  position: top;
+  
+}
+
+
+
+
