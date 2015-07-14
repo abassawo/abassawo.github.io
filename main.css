@@ -6,8 +6,16 @@ body {
 }
 
 
+.myHalfCol .col-lg-6{
 
-
+  width:48%; 
+  margin:0 1% /* or auto */;
+}
+#description p {
+  padding:0 10px
+    width:48%; 
+   margin:0 1% ;
+}
 #MainImage img {
   width: 200px;
   position: top;
@@ -19,6 +27,20 @@ body {
   margin-right: auto
 }
 
+#centeredtext p {
+    padding: 30px 15px;
+  margin-bottom: 30px;
+  color: inherit;
+}
+
+#sample-image{
+  width: 420px;
+  height: 420px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5%;
+  display: block;
+}
 
 
 logo reg 
