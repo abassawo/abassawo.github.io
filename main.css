@@ -1,18 +1,47 @@
 body {
   background-color:white;
+    padding-top: 50px;
+  padding-bottom: 20px;
 
 }
 
+
+.myHalfCol .col-lg-6{
+
+  width:48%; 
+  margin:0 1% /* or auto */;
+}
+#description p {
+  padding:0 10px
+    width:48%; 
+   margin:0 1% ;
+}
 #MainImage img {
   width: 200px;
   position: top;
   padding: 0;
   display: block;
   border: 0;
-  margin-top: 0px;
+  margin-top: 5%;
   margin-left: auto;
   margin-right: auto
 }
+
+#centeredtext p {
+    padding: 30px 15px;
+  margin-bottom: 30px;
+  color: inherit;
+}
+
+#sample-image{
+  width: 420px;
+  height: 420px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5%;
+  display: block;
+}
+
 
 logo reg 
 
@@ -48,6 +77,7 @@ hr {
   
 }
 
-
-
-
+.nav-pills { 
+  display: block!important; 
+  width: 25%
+}
