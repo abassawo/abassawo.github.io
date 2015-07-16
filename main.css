@@ -1,6 +1,6 @@
 body {
   background-color:white;
-   
+  padding: 0px;
 
 }
 
@@ -8,8 +8,14 @@ body {
 
 }
 
+.btn {
+
+}
+
 .navbar{
 background-color: white;
+padding: 0px;
+margin: 0px;
 }
 
 
@@ -33,11 +39,7 @@ background-color: white;
   margin-right: auto
 }
 
-#centeredtext p {
-    padding: 30px 15px;
-  margin-bottom: 30px;
-  color: inherit;
-}
+
 
 #sample-image{
   width: 420px;
@@ -49,7 +51,6 @@ background-color: white;
 }
 
 
-logo reg 
 
 
 hr {
