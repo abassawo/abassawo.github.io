@@ -25,8 +25,8 @@ function animateToSection(link, current, previous) {
 
   var scaleEffect = new KeyframeEffect(effectNode, scaleSteps, timing);
 
-  var fadeEffect = new SequenceEffect([buildFadeOut(previous), buildFadeIn(current)]);
-  var allEffects = [scaleEffect, fadeEffect];
+  //var fadeEffect = new SequenceEffect([buildFadeOut(previous), buildFadeIn(current)]);
+  var allEffects = [scaleEffect];
 
   // Play all animations within this group.
   var groupEffect = new GroupEffect(allEffects);
