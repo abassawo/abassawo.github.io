@@ -18,7 +18,7 @@ function animateToSection(link, current, previous) {
   header.appendChild(effectNode);
 
   var newColor = 'hsl(' + Math.round(Math.random() * 255) + ', 46%, 42%)';
-  effectNode.style.background = newColor;
+  //effectNode.style.background = newColor;
 
   var scaleSteps = [{transform: 'scale(0)'}, {transform: 'scale(1)'}];
   var timing = {duration: 2500, easing: 'ease-in-out'};
